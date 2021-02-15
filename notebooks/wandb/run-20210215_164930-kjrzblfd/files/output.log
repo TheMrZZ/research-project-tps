@@ -1,0 +1,63 @@
+
+  | Name  | Type      | Params
+------------------------------------
+0 | conv1 | Conv2d    | 456   
+1 | pool  | MaxPool2d | 0     
+2 | conv2 | Conv2d    | 2.4 K 
+3 | fc1   | Linear    | 48.1 K
+4 | fc2   | Linear    | 10.2 K
+5 | fc3   | Linear    | 850   
+------------------------------------
+62.0 K    Trainable params
+0         Non-trainable params
+62.0 K    Total params
+GPU available: True, used: True
+TPU available: None, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Files already downloaded and verified
+Files already downloaded and verified
+
+  | Name  | Type      | Params
+------------------------------------
+0 | conv1 | Conv2d    | 456   
+1 | pool  | MaxPool2d | 0     
+2 | conv2 | Conv2d    | 2.4 K 
+3 | fc1   | Linear    | 48.1 K
+4 | fc2   | Linear    | 10.2 K
+5 | fc3   | Linear    | 850   
+------------------------------------
+62.0 K    Trainable params
+0         Non-trainable params
+62.0 K    Total params
+C:\Users\Florian\miniconda3\envs\research-methods-tp1\lib\site-packages\pytorch_lightning\utilities\distributed.py:50: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  warnings.warn(*args, **kwargs)
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x000001FFB9BE8790>
+Traceback (most recent call last):
+  File "C:\Users\Florian\miniconda3\envs\research-methods-tp1\lib\site-packages\torch\utils\data\dataloader.py", line 1203, in __del__
+    self._shutdown_workers()
+  File "C:\Users\Florian\miniconda3\envs\research-methods-tp1\lib\site-packages\torch\utils\data\dataloader.py", line 1174, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'
+GPU available: True, used: True
+TPU available: None, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Files already downloaded and verified
+Files already downloaded and verified
+
+  | Name  | Type      | Params
+------------------------------------
+0 | conv1 | Conv2d    | 456   
+1 | pool  | MaxPool2d | 0     
+2 | conv2 | Conv2d    | 2.4 K 
+3 | fc1   | Linear    | 48.1 K
+4 | fc2   | Linear    | 10.2 K
+5 | fc3   | Linear    | 850   
+------------------------------------
+62.0 K    Trainable params
+0         Non-trainable params
+62.0 K    Total params
+C:\Users\Florian\miniconda3\envs\research-methods-tp1\lib\site-packages\pytorch_lightning\utilities\distributed.py:50: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  warnings.warn(*args, **kwargs)
+GPU available: True, used: True
+TPU available: None, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
